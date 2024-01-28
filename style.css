@@ -1,0 +1,31 @@
+.maindiv{
+    color: rgb(151, 124, 195);
+    background-color: rgb(74, 43, 169);
+}
+#startsound{
+    width: 90px;
+    height: 50px;
+    background-color: rgb(116, 147, 194);
+    color: aliceblue;
+    border-color: aliceblue;
+    border-radius: 30%;
+}
+.header{
+    background-color: rgb(98, 121, 213);
+    color: white;
+    position: sticky;
+}
+.footer{
+    color: rgb(255, 255, 255);
+    background-color: rgb(98, 121, 213);
+    text-align: center;
+    position: fixed;
+    text-shadow: 5px 5px 5px white;
+    width: 100%;
+    font-size: 20px;
+    bottom: 0;
+    line-height: 3;
+}
+#body{
+    background-color: rgb(74, 43, 169);
+}

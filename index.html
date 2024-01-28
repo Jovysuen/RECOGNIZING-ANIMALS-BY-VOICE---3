@@ -1,0 +1,57 @@
+<html>
+    <div>
+    <title>
+        RECOGNIZING ANIMALS BY VOICE
+     </title>  
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    </div>
+  
+    <center>
+    <body id="body">
+        <div class="col-xs-12 header text-center">
+            <h2>
+                Sound Controlled Animals
+            </h2>
+            <p>
+                Note: Play the sound of: A dog barking, a cat meowing, a lion roaring and a cow mooing
+            </p>
+        </div>
+        <div class="maindiv">
+             <br class="remain">
+        <button class="btn btn-success" id="startsound" onclick="start()">
+            START
+        </button>
+        <br>
+        <h3>
+            I can hear- 
+            <span id="sound">
+
+            </span>
+        </h3>
+        <br>
+        <h3>
+            Accuracy- 
+            <span id="soundaccuracy">
+
+            </span>
+        </h3>
+        <br>
+        <br>
+        <img src="Ear.png" id="image" width="200" height="200">
+        </div>
+        <br>
+        <br>
+        <div class="footer">
+            <p>
+                Developed by- Jovie Suen
+            </p>
+        </div>
+        <script src="main.js"></script>
+    </body>
+    </center>
+
+</html>
